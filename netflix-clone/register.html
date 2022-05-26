@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <h2>Sign Up</h2>
+    <form action="http://httpbin.org/post" method="post">
+        <label for="email">User Email:</label>
+        <input type="email" id="emailaddress" name="email" placeholder="email or phone number">
+        <br>
+        <label for="passwd">Password:</label>
+        <input type="password" id="pwd" name="passwd" placeholder="password">
+        <br>
+
+        <button type="submit">Sign Up</button>
+        <br>
+        <input type="checkbox" id="rem_me" name="rem">
+        <label for="rem">Remember me</label>
+        <br>
+        <a href="https://www.netflix.com/de-en/LoginHelp">Need help?</a>
+        <br>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br>
+
+        <select name="fam-type" id="fam-type">
+            <option value="adult">Adult</option>
+            <option value="kids">Kids</option>
+            <option value="old">Old</option>
+        </select>
+
+        <br>
+        <label for="adult">adult</label>
+        <input type="checkbox" value="adult" id="adult" name="adult">
+        <label for="kids">kids</label>
+        <input type="checkbox" value="kids" id="kids" name="kids">
+        <label for="old">old</label>
+        <input type="checkbox" value="old" id="old" name="old">
+
+
+    </form>
+</body>
+
+</html>
