@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title> webpage</title>
-    </head>
-    <body>
+
+        <body style="background-color:aqua"></body>
+
         <h1>Title</h1>
         <p>No one is going to see this page.Go to google.com by clicking <a href="www.google.com">here</a></p>
-        <ul>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
+        <ul style="display:inline-block">
+            <li style="background-color:blue">One</li>
+            <li style="background-color:red">Two</li>
+            <li style="background-color:blue">Three</li>
+            <li style="background-color:red">Four</li>
         </ul>
 
-        <ul>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
+        <ul style="display:inline-block">
+            <li style="background-color:red">One</li>
+            <li style="background-color:blue">Two</li>
+            <li style="background-color:red">Three</li>
+            <li style="background-color:blue">Four</li>
+        </ul>
+
+        <style>
+            ul{
+                display:inline-block;
+                color:blue
+            }
+            li{
+                color:black;
+            }
+            #one,#two,#three,#four{
+                background-color:red
+            }
+            .odd{
+                background-color:red
+            }
+            ul p{
+                color:violet;
+            }
+            
+
+    </style>
+        
+    </head>
+
+    <body>
+        <h1>Title</h1>
+
+        <p>No one is going to see this page.Go to google.com by clicking <a href="www.google.com">here</a></p>
+        <ul id="first">
+            <p>first list</p>
+            <li class="even">one</li>
+            <li class="odd">Two</li>
+            <li class="even">Three</li>
+            <li class="odd">Four</li>
+            <li class="even">five</li>
+            <li class="odd">six</li>
+        </ul>
+
+        <ul id="second">
+            <p>secondlist</p>
+            <li class="odd">One</li>
+            <li >Two</li>
+            <li class="odd">Three</li>
+            <li >Four</li>
+            <li class="odd">five</li>
+            <li >six</li>
+
         </ul>
     </body>
-
-</html>
